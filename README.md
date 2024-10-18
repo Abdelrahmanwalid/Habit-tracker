@@ -1,6 +1,9 @@
 # Habit Tracker
 
 A full-stack habit tracking application built with **React** on the frontend and **Node.js** on the backend. The app allows users to track their habits, visualize progress, and manage their profile.
+### Viewing the Client Side
+
+To view the client-side code, switch to the `master` branch in the repository.
 
 ## Features
 
