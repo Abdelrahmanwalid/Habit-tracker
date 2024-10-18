@@ -22,3 +22,34 @@ A full-stack habit tracking application built with **React** on the frontend and
    ```bash
    git clone https://github.com/Abdelrahmanwalid/Habit-tracker.git
    cd habit-tracker
+2. Install dependencies for both client and server:
+
+```bash
+cd habit-tracker-client
+npm install
+cd ../habit-tracker-server
+npm install
+```
+3.Set up environment variables:
+
+Create a .env file in the server directory and configure the following:
+```bash
+PORT=5000
+MONGODB_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+```
+Run both client and server:
+For client:
+```bash
+cd habit-tracker-client
+npm start
+```
+For server:
+```bash
+cd habit-tracker-server
+npm start
+```
+Usage
+Visit http://localhost:3000 to use the app.
+Users can register, log in, and track their habits.
+
